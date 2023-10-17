@@ -1,0 +1,77 @@
+/* CSS HEX
+--antiflash-white: #EFEEEE;
+--french-gray: #B1AEB5;
+--glaucous: #7378A8;
+--delft-blue: #34356D;
+--dark-purple: #151227; */
+
+
+
+
+body {
+  font-family: Futura, Helvetica, 'Gill Sans', sans-serif;
+}
+
+a:link{
+  color:#046f24;
+}
+
+a:hover,
+a:focus {
+  color: rgb(255, 68, 0);
+}
+
+a:visited{
+  color:#046f24;
+} 
+
+header {
+  padding: 0 0 20px 10px;
+  background-color: #1d20ea;
+  background-image: linear-gradient(to right, #1d20ea, #5704ff);
+  margin-bottom: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 3em;
+  color: white;
+  /* text-shadow: 4px 4px 4px #011a0f; */
+  margin-bottom: 15px;
+}
+
+nav {
+  font-size: 1.2em; 
+}
+
+nav>a {
+  margin-right: 15px;
+}
+
+nav>a:link,
+a:visited,
+a:focus {
+  color: white;
+  text-decoration: none;
+  border: solid 1px white;
+  padding: 2px;
+  border-radius: 2px;
+}
+
+nav>a:hover {
+  background:white;
+  color:#34356D;
+  border: solid 1px white;
+  border-radius: 2px;
+  padding: 2px;
+}
+
+.caption {
+  font-style: italic;
+  color:#34356D;
+  font-size: .8em;
+}
+
+.wow_photo>img {
+  width: 400px;
+}
