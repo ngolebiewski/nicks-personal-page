@@ -1,29 +1,7 @@
-/* CSS HEX
---antiflash-white: #EFEEEE;
---french-gray: #B1AEB5;
---glaucous: #7378A8;
---delft-blue: #34356D;
---dark-purple: #151227; */
-
-
-
-
 body {
   font-family: Futura, Helvetica, 'Gill Sans', sans-serif;
+  color: rgb(43, 41, 41)
 }
-
-a:link{
-  color:#046f24;
-}
-
-a:hover,
-a:focus {
-  color: rgb(255, 68, 0);
-}
-
-a:visited{
-  color:#046f24;
-} 
 
 header {
   padding: 0 0 20px 10px;
@@ -38,6 +16,11 @@ h1 {
   color: white;
   /* text-shadow: 4px 4px 4px #011a0f; */
   margin-bottom: 15px;
+}
+
+h2 {
+  border-bottom: 2px;
+  margin-top: 0px;
 }
 
 nav {
@@ -66,12 +49,87 @@ nav>a:hover {
   padding: 2px;
 }
 
+body>section {
+  border: none;
+}
+
+section {
+  padding: 10px;
+  max-width: 1100px;
+  a:link, a:focus, a:visited {
+    color:#046f24;
+  }
+  a:hover {
+    color:#315dee
+  }
+}
+
+/* a:link, a:hover, a:focus, a:visited {
+  color:#34356D;
+} */
 .caption {
   font-style: italic;
   color:#34356D;
-  font-size: .8em;
+  font-size: .7em;
 }
+
 
 .wow_photo>img {
   width: 400px;
+}
+
+.left {
+  display: inline-block;
+  max-width: 500px;
+  border: 2px solid #1d20ea;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+
+.right {
+  display: inline-block;
+  vertical-align: top;
+  max-width: 500px;
+}
+
+
+
+article {
+  border-bottom: thin solid #1d20ea;
+}
+
+.quote {
+  font-size: 1.4em;
+  font-style: italic;
+  color: #1d20ea;
+}
+
+li {
+  margin-bottom: .5em;
+}
+
+#photo {
+  list-style: none;
+}
+
+.tech {
+  font-style: italic;
+}
+
+.screenshot {
+  display: inline-block;
+  margin-right: 30px;
+  margin-bottom: 30px;
+  border-bottom: none;
+}
+
+.screenshot>img {
+  max-width:500px;
+  border: 2px solid #1d20ea;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.portfolio {
+  border-bottom: 2px dotted #1d20ea; ;
 }
